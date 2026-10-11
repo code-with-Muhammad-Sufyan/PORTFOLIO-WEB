@@ -112,7 +112,7 @@ const PRODUCT_BASE: Base[] = [
 /* ---------------- LIFESTYLE IMAGES (9 projects x 5 images) ---------------- */
 
 const LIFESTYLE_BASE: Base[] = [
-  { category: "lifestyle", kind: "image", title: "Lifestyle Project 1", client: "Client 1", year: "2026", ...shots("life", 1) },
+  { category: "lifestyle", kind: "image", title: "Lifestyle Project 1", client: "Male Model Wearing Compression", year: "2026", ...shots("life", 1) },
   { category: "lifestyle", kind: "image", title: "Lifestyle Project 2", client: "Client 2", year: "2026", ...shots("life", 2) },
   { category: "lifestyle", kind: "image", title: "Lifestyle Project 3", client: "Client 3", year: "2026", ...shots("life", 3) },
   { category: "lifestyle", kind: "image", title: "Lifestyle Project 4", client: "Client 4", year: "2025", ...shots("life", 4) },
