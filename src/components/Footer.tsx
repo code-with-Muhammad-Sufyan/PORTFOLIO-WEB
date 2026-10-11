@@ -62,7 +62,7 @@ const BehanceIcon = ({ className }: IconProps) => (
 const SOCIALS = [
   { icon: InstagramIcon, label: "Instagram", href: "https://www.instagram.com/sufyanprofessional486/" },
   { icon: FacebookIcon, label: "Facebook", href: "https://www.facebook.com/profile.php?id=61590779579407" },
-  { icon: LinkedinIcon, label: "LinkedIn", href: "www.linkedin.com/in/muhammad-sufyan-891531394" },
+  { icon: LinkedinIcon, label: "LinkedIn", href: "https://www.linkedin.com/in/muhammad-sufyan-891531394" },
   { icon: BehanceIcon, label: "Behance", href: "https://www.behance.net/muhammadsufyan138" },
 ];
 
@@ -167,11 +167,13 @@ export default function Footer() {
           transition={{ duration: 0.8, ease: EASE, delay: 0.3 }}
           className="mt-14 flex items-center gap-3"
         >
-          {SOCIALS.map(({ icon: Icon, label }) => (
+          {SOCIALS.map(({ icon: Icon, label, href }) => (
             <Magnetic key={label} strength={0.45}>
-              <a
-                href="#contact"
-                aria-label={label}
+               <a
+                 href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={label}
                 data-hover
                 className="grid size-12 place-items-center rounded-full border border-white/15 text-white/70 transition-all duration-300 hover:-translate-y-1 hover:border-gold hover:text-gold"
               >
