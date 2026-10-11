@@ -49,18 +49,21 @@ const LinkedinIcon = ({ className }: IconProps) => (
   </BrandIcon>
 );
 
-const DribbbleIcon = ({ className }: IconProps) => (
+const BehanceIcon = ({ className }: IconProps) => (
   <BrandIcon className={className}>
-    <circle cx="12" cy="12" r="10" />
-    <path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32" />
+    <path d="M2 6h6a3 3 0 0 1 0 6H2z" />
+    <path d="M2 12h7a3 3 0 0 1 0 6H2z" />
+    <path d="M14 7h7" />
+    <path d="M21 14.5a3.5 3.5 0 1 0-1 2.5" />
+    <path d="M13.5 14.5H21" />
   </BrandIcon>
 );
 
 const SOCIALS = [
-  { icon: InstagramIcon, label: "Instagram" },
-  { icon: FacebookIcon, label: "Facebook" },
-  { icon: LinkedinIcon, label: "LinkedIn" },
-  { icon: DribbbleIcon, label: "Dribbble" },
+  { icon: InstagramIcon, label: "Instagram", href: "https://www.instagram.com/sufyanprofessional486/" },
+  { icon: FacebookIcon, label: "Facebook", href: "https://www.facebook.com/profile.php?id=61590779579407" },
+  { icon: LinkedinIcon, label: "LinkedIn", href: "www.linkedin.com/in/muhammad-sufyan-891531394" },
+  { icon: BehanceIcon, label: "Behance", href: "https://www.behance.net/muhammadsufyan138" },
 ];
 
 export default function Footer() {
