@@ -90,7 +90,7 @@ const MODEL_BASE: Base[] = [
 /* ---------------- PRODUCT IMAGES (9 projects x 5 images) ---------------- */
 
 const PRODUCT_BASE: Base[] = [
-  { category: "product", kind: "image", title: "Product Project 1", client: "Client 1", year: "2026", ...shots("product", 1) },
+  // { category: "product", kind: "image", title: "Product Project 1", client: "Client 1", year: "2026", ...shots("product", 1) },
 ];
 
 /* ---------------- LIFESTYLE IMAGES (9 projects x 5 images) ---------------- */
@@ -103,7 +103,7 @@ const LIFESTYLE_BASE: Base[] = [
    ad: "sale" | "drop" | "flash"  -> ad ka design/style decide karta hai */
 
 const STATIC_BASE: Base[] = [
-  { category: "static", kind: "ad", ad: "sale",  title: "Static Ad 1", client: "Client 1", year: "2026", ...shots("static", 1) },
+  // { category: "static", kind: "ad", ad: "sale",  title: "Static Ad 1", client: "Client 1", year: "2026", ...shots("static", 1) },
 ];
 
 /* ---------------- VIDEO ADS (10) — gallery nahi, pehle jaisa ----------------
@@ -111,7 +111,7 @@ const STATIC_BASE: Base[] = [
    poster = thumbnail jo play se pehle dikhta hai (public/images/ mein) */
 
 const VIDEO_BASE: Base[] = [
-  { category: "video", kind: "video", title: "Video Ad 1",  client: "Client 1",  year: "2026", src: "/videos/video-1.mp4",  poster: "/images/video-1.jpg" },
+  // { category: "video", kind: "video", title: "Video Ad 1",  client: "Client 1",  year: "2026", src: "/videos/video-1.mp4",  poster: "/images/video-1.jpg" },
 ];
 
 /* ---------------- Ids lagane wala helper ---------------- */
