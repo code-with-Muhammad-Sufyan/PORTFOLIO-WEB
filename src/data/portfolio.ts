@@ -90,7 +90,7 @@ const MODEL_BASE: Base[] = [
 /* ---------------- PRODUCT IMAGES (9 projects x 5 images) ---------------- */
 
 const PRODUCT_BASE: Base[] = [
-  // { category: "product", kind: "image", title: "Product Project 1", client: "Client 1", year: "2026", ...shots("product", 1) },
+  { category: "product", kind: "image", title: "Product Project 1", client: "Male Compression Product Images", year: "2026", ...shots("product", 1) },
 ];
 
 /* ---------------- LIFESTYLE IMAGES (9 projects x 5 images) ---------------- */

@@ -143,12 +143,12 @@ export default function Footer() {
                 className="group flex items-center gap-3 rounded-full bg-gold px-8 py-4 text-[11px] font-semibold uppercase tracking-[0.22em] text-black shadow-[0_0_50px_rgba(245,197,24,0.3)] transition-shadow duration-500 hover:shadow-[0_0_90px_rgba(245,197,24,0.5)]"
               >
                 <Mail className="size-4" />
-                hello@sufyanvisuals.com
+                sufyanprofessional486@gmail.com
               </a>
             </Magnetic>
             <Magnetic>
               <a
-                href="mailto:hello@sufyanvisuals.com?subject=Project%20Inquiry"
+                href="mailto:sufyanprofessional486@gmail.com?subject=Project%20Inquiry"
                 data-hover
                 className="group flex items-center gap-3 rounded-full border border-white/20 px-8 py-4 text-[11px] font-semibold uppercase tracking-[0.22em] text-white transition-colors duration-300 hover:border-gold hover:text-gold"
               >
