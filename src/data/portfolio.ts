@@ -111,7 +111,7 @@ const STATIC_BASE: Base[] = [
    poster = thumbnail jo play se pehle dikhta hai (public/images/ mein) */
 
 const VIDEO_BASE: Base[] = [
-  // { category: "video", kind: "video", title: "Video Ad 1",  client: "Client 1",  year: "2026", src: "/videos/video-1.mp4",  poster: "/images/video-1.jpg" },
+  { category: "video", kind: "video", title: "Video Ad 1",  client: "Male Model Wearing Compression",  year: "2026", src: "/videos/video-1.mp4",  poster: "/images/video-1.jpg" },
 ];
 
 /* ---------------- Ids lagane wala helper ---------------- */
