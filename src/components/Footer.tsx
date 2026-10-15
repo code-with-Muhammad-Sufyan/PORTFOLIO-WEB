@@ -134,7 +134,7 @@ export default function Footer() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-60px" }}
             transition={{ duration: 0.9, ease: EASE, delay: 0.28 }}
-            className="flex flex-wrap items-center gap-4"
+            className="flex flex-wrap ite ms-center gap-4"
           >
             <Magnetic>
               <a

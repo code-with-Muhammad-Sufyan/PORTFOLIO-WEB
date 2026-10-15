@@ -56,7 +56,7 @@ function Card({
       onMouseLeave={item.kind === "video" ? stop : undefined}
       data-hover
       className={`group relative cursor-pointer overflow-hidden rounded-2xl border border-white/10 bg-coal transition-[border-color,box-shadow] duration-500 hover:border-gold/60 hover:shadow-[0_0_60px_rgba(245,197,24,0.12)] ${
-        item.kind === "video" ? "aspect-[9/16]" : "aspect-[4/5]"
+        item.kind === "video" ? "aspect-[9/16]" : "aspect-[3/4]"
       }`}
     >
       {item.kind === "image" && (
@@ -336,7 +336,7 @@ function Lightbox({
 /*  Section                                                            */
 /* ------------------------------------------------------------------ */
 export default function Portfolio() {
-  const [tab, setTab] = useState<CategoryId>("model");
+  const [tab, setTab] = useState<CategoryId>("photoshoot");
   const [active, setActive] = useState<PortfolioItem | null>(null);
 
   const items = ITEMS.filter((i) => i.category === tab);
@@ -360,7 +360,7 @@ export default function Portfolio() {
           >
             <span className="h-px w-12 bg-gold" />
             <p className="text-[10px] font-medium uppercase tracking-[0.45em] text-gold md:text-[11px]">
-              The Work — 0{catIndex + 1}/05 disciplines
+              The Work — 0{catIndex + 1}/03 disciplines
             </p>
           </motion.div>
           <motion.h2
@@ -384,8 +384,8 @@ export default function Portfolio() {
             className="mt-6 max-w-2xl text-sm font-light leading-relaxed text-white/55 md:text-base"
           >
             A curated selection of conversion-focused visuals built for
-            e-commerce brands — studio model imagery, product hero shots,
-            lifestyle scenes and ad creatives engineered to turn attention
+            e-commerce brands — professional model, product and lifestyle
+            photoshoots, plus static and video ads engineered to turn attention
             into revenue.
           </motion.p>
         </div>
