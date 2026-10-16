@@ -122,6 +122,14 @@ const PHOTOSHOOT_BASE: Base[] = [
     year: "2026",
     ...shots("photoshoot", 6, 5),
   },
+  {
+    category: "photoshoot",
+    kind: "image",
+    title: "MODEL IMAGES",
+    client: "Male Polo Shirt",
+    year: "2026",
+    ...shots("photoshoot", 7, 6),
+  },
   // Example cards:
   // { category: "photoshoot", kind: "image", title: "Photoshoot Project 2", client: "Client 2", year: "2026", ...shots("photoshoot", 2, 3) },
   // { category: "photoshoot", kind: "image", title: "Photoshoot Project 3", client: "Client 3", year: "2026", ...shots("photoshoot", 3, 10) },
