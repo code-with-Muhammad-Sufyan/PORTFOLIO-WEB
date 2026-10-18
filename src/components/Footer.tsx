@@ -61,7 +61,7 @@ const BehanceIcon = ({ className }: IconProps) => (
 
 const SOCIALS = [
   { icon: InstagramIcon, label: "Instagram", href: "https://www.instagram.com/sufyanprofessional486/" },
-  { icon: FacebookIcon, label: "Facebook", href: "https://www.facebook.com/profile.php?id=61590779579407" },
+  { icon: FacebookIcon, label: "Facebook", href: "https://www.facebook.com/profile.php?id=61578205243057" },
   { icon: LinkedinIcon, label: "LinkedIn", href: "https://www.linkedin.com/in/muhammad-sufyan-891531394" },
   { icon: BehanceIcon, label: "Behance", href: "https://www.behance.net/muhammadsufyan138" },
 ];
