@@ -146,7 +146,7 @@ const PHOTOSHOOT_BASE: Base[] = [
 /* STATIC ADS: each card can have a different number of images. */
 
 const STATIC_BASE: Base[] = [
-  // { category: "static", kind: "image", title: "Static Ad Project 1", client: "Client 1", year: "2026", ...shots("ads", 1, 5) },
+  { category: "static", kind: "image", title: "AD-1", client: "Male Model Wearing Compression", year: "2026", ...shots("ads", 1, 3) },
   // { category: "static", kind: "image", title: "Static Ad Project 2", client: "Client 2", year: "2026", ...shots("ads", 2, 3) },
 ];
 
